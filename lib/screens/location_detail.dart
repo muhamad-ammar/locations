@@ -17,6 +17,7 @@ class LocationDetail extends StatelessWidget {
             TextSection(Colors.red),
             TextSection(Colors.green),
             TextSection(Colors.blue),
+            TextSection(Colors.pink),
           ],
         ));
   }
