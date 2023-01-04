@@ -15,11 +15,14 @@ class LocationDetail extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            // Adding image asset to screen
             ImageBanner('assets/images/kiyomizu-dera.jpg'),
-            TextSection(Colors.red),
-            TextSection(Colors.green),
-            TextSection(Colors.blue),
-            TextSection(Colors.pink),
+            TextSection('Summary 1',
+                'But I must explain tojbjjj jjjnkj jbvvcgh tant pleasure?'),
+            TextSection('Summary 2"',
+                'At vero eos et accusamus et iusto odio dignissimos  asperiores repellat.'),
+            TextSection('Summary 3',
+                'On the other hand, we denounce with righteous indignation  pains to avoid worse pains.'),
           ],
         ));
   }
