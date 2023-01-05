@@ -15,14 +15,14 @@ const AppBarTextStyle = TextStyle(
 
 const TitleTextStyle = TextStyle(
   fontFamily: FontNameDefault,
-  fontWeight: FontWeight.w900,
+  fontWeight: FontWeight.w500,
   fontSize: LargeTextSize,
   color: Colors.black,
 );
 
 const Body1TextStyle = TextStyle(
   fontFamily: FontNameDefault,
-  fontWeight: FontWeight.w500,
+  fontWeight: FontWeight.w300,
   fontSize: BodyTextSize,
   color: Colors.black,
 );

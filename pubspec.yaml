@@ -78,9 +78,9 @@ flutter:
   fonts:
     - family: Oswald
       fonts:
-        - asset: assets/fonts/Oswald.ttf
-          weight: 300
-        - asset: assets/fonts/Oswald-SemiBold.ttf
+        # - asset: assets/fonts/Oswald.ttf
+        #   weight: 300
+        - asset: assets/fonts/Oswald_R.ttf
           weight: 900
   #   - family: Trajan Pro
   #     fonts:
