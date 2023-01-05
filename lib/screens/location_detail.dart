@@ -6,10 +6,13 @@ import 'image_banner.dart';
 import '../Models/location.dart';
 
 class LocationDetail extends StatelessWidget {
+  late final int _locationId;
+  LocationDetail(this._locationId);
+
   @override
   Widget build(BuildContext context) {
-    final locations = Location.fetchAll();
-    final location = locations.first;
+    final location = Location.fetchByID(_locationId);
+
     return Scaffold(
         appBar: AppBar(
           title: Text(location.name),
